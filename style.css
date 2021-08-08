@@ -4,4 +4,70 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.clickable:hover {
+  cursor: pointer;
+}
+.navbar {
+  width:99.8%;
+  height:3em;
+  border: solid thin black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-section {
+  min-width:18%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-icon-cont {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width:2rem;
+  height:2rem;
+}
+.nav-icon-cont > svg {
+  width :1.5rem;
+  height:1.5rem;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  fill:#333;
+}
+.genre {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14.25px;
+  font-weight: 700;
+  color:black;
+}
+.genre:hover {
+  text-decoration: underline;
+}
+.nyt-logo {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width:100%;
+  height:2rem;
+}
+.right-nav {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-btn {
+  text-align: center;
+  border-radius: 4px;
+  height: 2rem;
+  border: none;
+  font-size: 13px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-weight: 600;
+  background-color: #567B95;
 }
